@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:bisque
+}
+
+header {
+    background:beige;
+    color:aqua;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color:burlywood;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:bisque;
+}
+
+section {
+    background: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ffb6c1;
+}
+
+h2 {
+    color:darksalmon;
+    text-align:center;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border:5px solid beige;
+}
+
+button {
+    background-color:blanchedalmond;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:bisque;
+}
+
+footer {
+    background:antiquewhite;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border:5px solid bisque;
+}
