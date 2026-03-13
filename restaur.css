@@ -1,0 +1,151 @@
+#header
+{
+    background-image: url('xyz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 25px;
+    padding: 25px;
+    border: 10px blue ;
+}
+.overlay
+{
+    background-color: rgba(255, 255, 255, 0.6);/*white with transparency*/
+    color:#ffe4e4;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.section
+{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+.content{
+    border: 2px solid burlywood;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float:right;
+    width: 30%;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+p.box{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+#footer {
+    background-color:white;
+}
+/*des*/
+body{
+  font-family: Arial;
+}
+
+.box{
+  border:2px solid black;
+  padding:25px;
+  width:320px;
+  text-align:center;
+  background-color:white;
+  margin-left:240px;
+  margin-top:120px;
+}
+
+.main-btn{
+  padding:8px 18px;
+  border:1px solid black;
+  background:none;
+  cursor:pointer;
+}
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+}
+
+/* HEADER */
+#header{
+  background:cornsilk;
+  text-align:center;
+  padding:60px;
+}
+
+#header h1{
+  font-size:40px;
+  margin:0;
+}
+
+#header p{
+  font-size:20px;
+}
+
+/* MENU SECTION */
+.section{
+  width:70%;
+  margin:auto;
+}
+
+/* EACH MENU ITEM */
+.content{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:20px;
+  border-bottom:1px solid #ccc;
+}
+
+/* FOOD IMAGE */
+.content img{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+/* DESCRIPTION */
+.left{
+  flex:1;
+  margin-left:20px;
+}
+
+.left p{
+  font-size:20px;
+}
+
+/* PRICE BOX */
+.right p{
+  font-size:22px;
+  font-weight:bold;
+  background:#ffe4e4;
+  padding:8px 15px;
+  border-radius:8px;
+}
+
+/* Description page box */
+.desc{
+  width:380px;              /* box width */
+  padding:20px;             /* space inside box */
+  border:3px solid black;   /* dark border box */
+  background:pink;       /* white box */
+  text-align:center;        /* center text */
+  margin:120px auto;        /* center the box horizontally */
+}
+
+/* Button style (optional if already exists) */
+.main-btn{
+  padding:8px 18px;
+  border:1px solid black;
+  background:none;
+  cursor:pointer;
+
+}
